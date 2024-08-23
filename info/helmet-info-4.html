@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLEASANT TOURS HOME PAGE</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="website icon" type="png" href="/IMG/icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@400..700&display=swap"
+    rel="stylesheet">
+
+  
+
+  <!-- css -->
+  <link rel="stylesheet" href="/CSS/info.css">
+</head>
+
+<body>
+
+
+  <!-- navbar  -->
+
+  <div class="top">
+    <nav class="navbar navbar-expand-lg  m-auto  ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="/HTML/index.html"><img class="web-logo" src="/IMG/logo copy.png" alt=""></a>
+        <button class="navbar-toggler text-end" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item ">
+              <a class="nav-link active me-1 fw-semibold text-dark" aria-current="page" href="/HTML/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-1 fw-semibold text-dark" href="/HTML/About.html">About</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle me-1 fw-semibold text-dark"  href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Tours Categories
+              </a>
+              <ul class="dropdown-menu fw-semibold ">
+                <li><a class="dropdown-item " href="/HTML/beaches.html">Beach Tours</a></li>
+                <li><a class="dropdown-item" href="/HTML/hill station.html">Hill Stations</a></li>
+                <li><a class="dropdown-item" href="/HTML/fort&palace.html">Forts Palaces</a></li>
+              </ul>
+              <li class="nav-item">
+              <a class="nav-link me-1 fw-semibold text-dark" href="/HTML/shop.html">Shop Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-1 fw-semibold text-dark" href="/HTML/singup.html">SignUp</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-1 " href="#contact_page"><button id="contact_btn"
+                  class="btn fw-semibold fw-bold">Contact</button></a>
+            </li>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <img class="w-75 br" src="/product-img/Helmate card-4.jpg" alt="">
+            </div>
+            <div class="col-6">
+
+                <h1>Helmet</h1>
+                <p><b>Retrospec</b></p>
+                <p><b>$34.99</b></p>
+                <p>Retrospec Retrospec Dakota Bike Helmet - Skateboard Helmet Premium Protection Multi-Sport Bike, BMX, Skating, Scooter, and Skate Helmet
+
+                </p>
+                <img class="star w-25" src="/product-img/rating star pic.png" alt="">
+                <p class="dis text-secondary">A headlamp is a wearable light source that is attached to a person's head or helmet. It typically consists of a light unit and an adjustable strap. Headlamps are commonly used in outdoor activities such as camping, hiking, and caving, as well as in professional settings such as mining and construction.
+                </p>
+
+
+                <button id="buy_now" class="btn btn-outline-dark">Buy Now</button>
+            </div>
+            
+            <!-- Form -->
+            <form id="form" style="display: none;" class="row g-3 needs-validation bg-body-secondary " novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Email</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <label for="validationCustom03" class="form-label">City / Address</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom05" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button id="sub_btn" class="btn btn-dark mb-2" type="submit">Submit form</button>
+                </div>
+              </form>
+        </div>
+    </div>
+       
+  <!-- footer -->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="container-fluid mt-5">
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-between p-4" style="background-color: #e46f09">
+
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+
+      <!-- Contact Us -->
+      <div id="contact_page" class="container-fluid py-3 px-5 bg-light-subtle my-3 ">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <h2 class="text-dark">Contact</h2>
+            <span class="text-dark">Our mailing address is:</span>
+            <br>
+            <span class="text-dark">152A Charlotte Street</span>
+            <br>
+            <span class="text-dark">Phone: 705-742-3221</span>
+            <div class="contact-icon">
+              <img src="/IMG/FB icon.svg" alt="">
+              <img src="/IMG/X icon.svg" alt="">
+              <img src="/IMG/instagram icon.svg" alt="">
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <p class="p text-dark">Great vision without great people is irrelevant. Let's work together.</p>
+            <form>
+              <div class="form-group mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                  else.</small>
+              </div>
+              <div class="form-group mb-3">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group mb-3">
+                <input type="text" class=" h-100 form-control" id="exampleInputPassword1" placeholder="Massege">
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Section: Social media -->
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container-fluid text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Pleasant Tours</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                Accessories add personality to your look and give you an opportunity to express your unique personal
+                style. Accessories add versatility. With a change in accessories you can wear the same ensemble over and
+                over but it looks and feels different, as you've added different accessories and have created a
+                different look.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="/HTML/beaches.html" class="text-white">Beach Tours</a>
+              </p>
+              <p>
+                <a href="/HTML/hill station.html" class="text-white">Hill Stations</a>
+              </p>
+              <p>
+                <a href="/HTML/fort&palace.html" class="text-white">Forts Palaces</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@NEXTREK'S WARES & ARSENAL.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a class="text-white" href="">Pleasant Tours</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+  </div>
+  <!-- End of .container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+
+        $(document).ready(function(){
+            $('#buy_now').click(function(){
+                $('#form').fadeIn()
+            })
+
+            //Sub
+            $('#sub_btn').click(function(){
+                alert('Your order has been placed.')
+            })
+        })
+
+    </script>
+
+</body>
+</html>
